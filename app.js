@@ -9,6 +9,9 @@ const imageDisplay = document.getElementById('image-display');
 const moveSelect = document.getElementById('move-select');
 const pokeCard = document.getElementById('poke-card');
 
+const hobbyDisplay = document.getElementById('hobby-display');
+const hobbyText = document.getElementById('hobby-text');
+
 
 const exportButton = document.getElementById('export-button');
 
@@ -36,6 +39,10 @@ moveSelect.addEventListener('change', () => {
 
 nameInput.addEventListener('input', () => {
     nameDisplay.textContent = nameInput.value;
+});
+
+hobbyText.addEventListener('input', () => {
+    hobbyDisplay.textContent = hobbyText.value;
 });
 
 
