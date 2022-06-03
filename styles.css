@@ -18,6 +18,11 @@ header {
     background-color: var(--header-background);
 }
 
+#main-logo{
+
+    
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -27,4 +32,59 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+#customizer {
+
+    display: block;
+    background-color: red;
+    padding: 20px;
+    width: fit-content;
+
+}
+
+h1{
+    font-size: 36px;
+}
+
+#nickname-lab {
+
+    font-weight: bold;
+    
+}
+
+#name-input {
+
+}
+
+#evolution-select {
+
+}
+
+#move-select{
+
+}
+
+#button{
+    padding-top: 5px;
+}
+
+#export-button {
+
+    
+}
+
+#poke-card {
+
+}
+
+#name-display{
+
+
+}
+
+#image-display{
+
+    width: 50%;
+    
 }

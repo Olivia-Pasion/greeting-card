@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <img src="assets/pokemon/logo.png">
+        <img id="main-logo" src="assets/pokemon/logo.png">
         
     </header>
 
@@ -19,7 +19,7 @@
 
         <section id="customizer">
             <h1>Charmander</h1>
-            <p> 
+            <p id="nickname-lab"> 
                 <label>
 
                     Nickname your Pokemon <br>
@@ -47,9 +47,9 @@
 
                     Select the Pokemon's Move<br>
                         <select id="move-select">
-                            <option></option>
-                            <option></option>
-                            <option></option>
+                            <option>Ember</option>
+                            <option>Smokescreen</option>
+                            <option>Dragon Breath</option>
                         </select>
 
                 </label>
@@ -59,10 +59,19 @@
 
         </section>
 
-        <button id="export-button">Use Export!</button>
+        <p id="button">
 
-        <section>
+            <button id="export-button">Use Export!</button>
+        
+        </p>
 
+        <section id="poke-card">
+
+            <p id="name-display">Char Char</p>
+
+            <p>
+                <img id="image-display" src="./assets/pokemon/Charmander.png">
+            </p>
 
         </section>
 
