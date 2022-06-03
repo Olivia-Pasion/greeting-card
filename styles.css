@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
+/* CSS HEX */
+--prussian-blue: #003049ff;
+--maximum-red: #d62828ff;
+--orange: #f77f00ff;
+--maximum-yellow-red: #fcbf49ff;
+--lemon-meringue: #eae2b7ff;
+
 :root {
     --background: rgb(224, 234, 247);
     --header-background: white;
@@ -19,7 +26,7 @@ header {
 }
 
 #main-logo{
-
+    width: fit-content;
     
 }
 
@@ -37,7 +44,7 @@ footer {
 #customizer {
 
     display: block;
-    background-color: red;
+    background-color: ;
     padding: 20px;
     width: fit-content;
 
@@ -75,6 +82,9 @@ h1{
 }
 
 #poke-card {
+
+    display: block;
+
 
 }
 

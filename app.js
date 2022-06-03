@@ -15,8 +15,12 @@ const exportButton = document.getElementById('export-button');
 
 // set event listeners
 
-exportButton.addEventListener('click', () => {
-
+exportButton.addEventListener('click', async () => {
+    const dataUrl = await domtoimage.toPng(pokeCard);
+    const link = document.createElement('a');
+    link.download = nameInput.value + '.png';
+    link.href = dataUrl;
+    link.click();
 });
 
 evolutionSelect.addEventListener('change', () => {
