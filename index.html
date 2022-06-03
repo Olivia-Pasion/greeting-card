@@ -11,16 +11,86 @@
 
 <body>
     <header>
-        <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <img id="main-logo" src="assets/pokemon/logo.png">
+        
     </header>
 
     <main>
 
+        <div>
+
+            <section id="customizer">
+                <h1>Who's that Pokemon?</h1>
+                <p id="nickname-lab"> 
+                    <label>
+
+                        Nickname your Pokemon <br>
+                        <input id="name-input"> 
+
+                    </label>
+                </p>
+
+                <p>
+                        <label>
+
+                            Select the Evolution<br>
+                            <select id="evolution-select">
+                                <option value="Charmander.png" selected>Charmander</option>
+                                <option value="Charmeleon.png">Charmeleon</option>
+                                <option value="Charizard.png">Charizard</option>
+                            </select>
+
+                        </label>
+
+                </p>
+
+               
+
+                <p>
+                    <label>
+
+                        Select the Pokemon's Theme<br>
+                            <select id="move-select">
+                                <option value="fire">Ember</option>
+                                <option value="normal">Smokescreen</option>
+                                <option value="dragon">Dragon Breath</option>
+                            </select>
+
+                    </label>
+
+                </p>
+
+                <p>
+                    <label>Pokemon Hobby</label><br>
+                    <textarea id="hobby-text">eating berries</textarea>
+                </p>
+
+
+            </section>
+
+            <p id="button">
+
+                <button id="export-button">Use Export!</button>
+            
+            </p>
+
+            <article id="poke-card" class=" ">
+
+                <h2 id="name-display">Char Char</h2>
+
+                <p>
+                    <img id="image-display" src="./assets/pokemon/Charmander.png">
+                </p>
+                <p id="hobby-display">eating berries</p>
+                
+
+            </article>
+        </div>
+
     </main>
 
     <footer>&copy;2021 Aspiring Software Developer</footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/dom-to-image@2.6.0/src/dom-to-image.min.js"></script>
     <script type="module" src="app.js"></script>
 </body>
 

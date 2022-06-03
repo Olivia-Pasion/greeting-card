@@ -15,7 +15,9 @@
   },
   "globals": {
     "QUnit": false,
-    "supabase": false
+    "supabase": false,
+    "domtoimage": false
+
   },
   "rules": {
     "eqeqeq": ["error", "always"],
