@@ -88,3 +88,19 @@ h1{
     width: 50%;
     
 }
+
+.fire {
+    background: pink;
+    border: red;
+
+}
+
+.normal {
+    background: gray;
+    border: black;
+}
+
+.dragon {
+    background: blue;
+    border: purple;
+}

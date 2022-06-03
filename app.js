@@ -24,6 +24,12 @@ evolutionSelect.addEventListener('change', () => {
     imageDisplay.src = src;
 
 });
+
+moveSelect.addEventListener('change', () => {
+    pokeCard.classList.value = '';
+    pokeCard.classList.add(moveSelect.value);
+});
+
     // get info from user input
     // use user input to update state
     // update DOM to reflect the new state
