@@ -17,63 +17,66 @@
 
     <main>
 
-        <section id="customizer">
-            <h1>Charmander</h1>
-            <p id="nickname-lab"> 
-                <label>
+        <div>
 
-                    Nickname your Pokemon <br>
-                    <input id="name-input"> 
-
-                </label>
-            </p>
-
-            <p>
+            <section id="customizer">
+                <h1>Charmander</h1>
+                <p id="nickname-lab"> 
                     <label>
 
-                        Select the Evolution<br>
-                        <select id="evolution-select">
-                            <option>Charmander</option>
-                            <option>Charmeleon</option>
-                            <option>Charizard</option>
-                        </select>
+                        Nickname your Pokemon <br>
+                        <input id="name-input"> 
+
+                    </label>
+                </p>
+
+                <p>
+                        <label>
+
+                            Select the Evolution<br>
+                            <select id="evolution-select">
+                                <option value="Charmander.png" selected>Charmander</option>
+                                <option value="Charmeleon.png">Charmeleon</option>
+                                <option value="Charizard.png">Charizard</option>
+                            </select>
+
+                        </label>
+
+                </p>
+
+                <p>
+                    <label>
+
+                        Select the Pokemon's Move<br>
+                            <select id="move-select">
+                                <option>Ember</option>
+                                <option>Smokescreen</option>
+                                <option>Dragon Breath</option>
+                            </select>
 
                     </label>
 
+                </p>
+
+
+            </section>
+
+            <p id="button">
+
+                <button id="export-button">Use Export!</button>
+            
             </p>
 
-            <p>
-                <label>
+            <article id="poke-card">
 
-                    Select the Pokemon's Move<br>
-                        <select id="move-select">
-                            <option>Ember</option>
-                            <option>Smokescreen</option>
-                            <option>Dragon Breath</option>
-                        </select>
+                <h2 id="name-display">Char Char</h2>
 
-                </label>
+                <p>
+                    <img id="image-display" src="./assets/pokemon/Charmander.png">
+                </p>
 
-            </p>
-
-
-        </section>
-
-        <p id="button">
-
-            <button id="export-button">Use Export!</button>
-        
-        </p>
-
-        <section id="poke-card">
-
-            <p id="name-display">Char Char</p>
-
-            <p>
-                <img id="image-display" src="./assets/pokemon/Charmander.png">
-            </p>
-
-        </section>
+            </article>
+        </div>
 
     </main>
 
