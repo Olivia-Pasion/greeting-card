@@ -18,7 +18,7 @@ const exportButton = document.getElementById('export-button');
 
 // set event listeners
 
-exportButton.addEventListener('click', async () => {
+exportButton.addEventListener('click', async() => {
     const dataUrl = await domtoimage.toPng(pokeCard);
     const link = document.createElement('a');
     link.download = nameInput.value + '.png';
