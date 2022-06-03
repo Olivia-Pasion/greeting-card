@@ -5,10 +5,11 @@
 --maximum-red: #d62828ff;
 --orange: #f77f00ff;
 --maximum-yellow-red: #fcbf49ff;
---lemon-meringue: #eae2b7ff;}
+--lemon-meringue: #eae2b7ff;
+--duke-blue: rgb(77, 0, 210);}
 
 :root {
-    --background: var(--prussian-blue);
+    --background: var(--maximum-yellow-red);
     --header-background: white;
     --footer-background: rgb(243, 242, 242);
 }
@@ -47,6 +48,8 @@ footer {
     background-color: var(--orange);
     padding: 20px;
     width: fit-content;
+    border-radius: 5px;
+    margin: 20px;
 
 }
 
@@ -60,26 +63,13 @@ h1{
     
 }
 
-#name-input {
 
-}
-
-#evolution-select {
-
-}
-
-#move-select{
-
-}
 
 #button{
     padding-top: 5px;
 }
 
-#export-button {
 
-    
-}
 
 #poke-card {
 
@@ -88,13 +78,10 @@ h1{
     text-align: center; 
     display: block;
 
-
-
 }
 
 #name-display{
     text-align: center;
-
 
 }
 
@@ -104,19 +91,25 @@ h1{
     
 }
 
+#hobby-display{
+    font-size: 20 ch;
+}
+
 .fire {
     border: 5px solid red;
     background: var(--maximum-red);
-
+    font-size: 2rem;
 
 }
 
 .normal {
     background: gray;
     border: 5px solid black;
+    font-size: 2rem;
 }
 
 .dragon {
-    background: blue;
+    background: rgb(77, 0, 210);
     border: 5px solid purple;
+    font-size: 2rem;
 }

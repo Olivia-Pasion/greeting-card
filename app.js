@@ -33,7 +33,7 @@ evolutionSelect.addEventListener('change', () => {
 });
 
 moveSelect.addEventListener('change', () => {
-    pokeCard.classList.value = '';
+    pokeCard.classList.value = ' ';
     pokeCard.classList.add(moveSelect.value);
 });
 
